@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Title() { //Tem que colocar no nome da função o nome da pasta
     return (
         <View>
-            <Text style={styles.titulo}>ONEBITHREALTH</Text>
+            <Text style={styles.titulo}>Calculadora de IMC</Text>
         </View>
     );
 }
