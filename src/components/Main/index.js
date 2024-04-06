@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
 
 import Form from "../Form";
 
@@ -9,3 +9,4 @@ export default function Main() {
         </View>
     );
 }
+

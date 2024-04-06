@@ -6,21 +6,14 @@ import Main from './src/components/Main';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View >
 
       <Title/>
 
-      <Main/>
+      <Main style={StyleSheet.main}/>
 
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    height: 200,
-    backgroundColor: '#848484',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
